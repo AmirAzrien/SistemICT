@@ -48,7 +48,8 @@ class UserSeeder extends Seeder
             ['name' => 'Haliza Binti Mohamad', 'email' => 'haliza.admin10@johor.gov.my', 'type' => 3, 'jawatan' => 'Pembantu Awam', 'jabatan' => 'Pejabat Tanah dan Galian Johor'],
 
             // Type 4 - Super Admin
-            ['name' => 'Amir Azrien', 'email' => 'AmirAzrien@johor.gov.my', 'type' => 4, 'jawatan' => 'Pegawai Tadbir', 'jabatan' => 'Pejabat Setiausaha Kerajaan Johor'],
+            ['name' => 'Super Admin', 'email' => 'SuperAdmin@johor.gov.my', 'type' => 4, 'jawatan' => 'Super Admin', 'jabatan' => 'Super Admin'],
+            // ['name' => 'Amir Azrien', 'email' => 'AmirAzrien@johor.gov.my', 'type' => 4, 'jawatan' => 'Pegawai Tadbir', 'jabatan' => 'Pejabat Setiausaha Kerajaan Johor'],
             // ['name' => 'Fadzil Bin Iskandar', 'email' => 'fadzil.super1@johor.gov.my', 'type' => 4, 'jawatan' => 'Pegawai Tadbir', 'jabatan' => 'Pejabat Setiausaha Kerajaan Johor'],
             // ['name' => 'Nadiah Binti Halim', 'email' => 'nadiah.super2@johor.gov.my', 'type' => 4, 'jawatan' => 'Penolong Akauntan', 'jabatan' => 'Jabatan Pengairan dan Saliran'],
             // ['name' => 'Shahril Bin Fauzi', 'email' => 'shahril.super3@johor.gov.my', 'type' => 4, 'jawatan' => 'Pembantu Operasi', 'jabatan' => 'Jabatan Alam Sekitar Johor'],

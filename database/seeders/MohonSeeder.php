@@ -14,13 +14,12 @@ class MohonSeeder extends Seeder
     public function run(): void
     {
         $senaraiSkop = [
-            'Pembangunan Sistem' => 'PS',
-            'Perkakasan ICT' => 'PICT',
-            'Perisian' => 'PRS',
-            'Rangkaian dan Alatan Rangkaian' => 'RAR',
-            'Perkhidmatan ICT' => 'PDICT',
-            'Pengkomputeran Awan' => 'PA',
-            'Khidmat ICT' => 'KICT',
+            'Pembangunan Sistem' => 'Sistem',
+            'Perkakasan ICT' => 'Perkakasan ICT',
+            'Perisian' => 'perisian',
+            'Rangkaian dan Alatan Rangkaian' => 'Rangkaian dan Alatan Rangkaian',
+            'Perkhidmatan ICT' => 'Perkhidmatan ICT',
+            'Cloud' => 'Cloud',
         ];
 
         // Ambil semua pengguna type 1 (biasa)
