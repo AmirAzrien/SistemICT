@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "no-duplicate-selectors": true,
+    "declaration-block-no-duplicate-properties": true,
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "keyframes-name-pattern": "^[a-z-]+$",
+    "selector-type-no-unknown": true,
+    "no-descending-specificity": null
+  }
+}
