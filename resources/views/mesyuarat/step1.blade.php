@@ -74,8 +74,7 @@
                     @endif
                     @if (in_array(auth()->user()->type, [2, 3, 4]))
                         <li class="nav-item">
-                            <a class="nav-link nav-link-johor"
-                                href="{{ route('mesyuarat.index') }}">MESYUARAT</a>
+                            <a class="nav-link nav-link-johor" href="{{ route('mesyuarat.index') }}">MESYUARAT</a>
                         </li>
                     @endif
                 </ul>
@@ -101,7 +100,7 @@
     <!-- Main content -->
     <main class="container my-5">
         <div class="container">
-            <h2 class="mb-4">Mesyuarat 1: Permohonan - {{ $permohonan->tajuk }}</h2>
+            <h2 class="mb-4">Keputusan Mesyuarat: {{ $permohonan->tajuk }}</h2>
 
             @if (session('success'))
                 <div class="alert alert-success">{{ session('success') }}</div>
@@ -136,12 +135,12 @@
                     <label for="kelulusan" class="form-label">Keputusan Mesyuarat</label>
                     <select name="kelulusan" id="kelulusan" class="form-select" required>
                         <option value="">-- Sila Pilih --</option>
+                        <option value="Disyorkan" {{ old('Disyorkan') == 'Disyorkan' ? 'selected' : '' }}>Disyorkan
+                        </option>
                         <option value="Lulus" {{ old('kelulusan') == 'Lulus' ? 'selected' : '' }}>Lulus</option>
                         <option value="Tidak Lulus" {{ old('kelulusan') == 'Tidak Lulus' ? 'selected' : '' }}>Tidak
                             Lulus</option>
                         <option value="Ditangguh" {{ old('kelulusan') == 'Ditangguh' ? 'selected' : '' }}>Ditangguh
-                        </option>
-                        <option value="Disyorkan" {{ old('Disyorkan') == 'Disyorkan' ? 'selected' : '' }}>Disyorkan
                         </option>
                         <option value="Perlu Semakan Semula"
                             {{ old('Perlu Semakan Semula') == 'Perlu Semakan Semula' ? 'selected' : '' }}>Perlu Semakan
