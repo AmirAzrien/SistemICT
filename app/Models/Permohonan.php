@@ -63,4 +63,9 @@ class Permohonan extends Model
 
         return "{$year}/{$jabatan}/{$kodSkop}/{$bilangan}";
     }
+
+    public function mesyuarat()
+    {
+        return $this->hasMany(Mesyuarat::class, 'permohonan_id');
+    }
 }

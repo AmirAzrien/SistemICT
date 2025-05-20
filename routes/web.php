@@ -14,6 +14,7 @@ use App\Http\Controllers\PenggunaController;
 use App\Http\Controllers\TetapanController;
 use App\Http\Controllers\PermohonanController;
 use App\Http\Controllers\PengurusanController;
+use App\Http\Controllers\MesyuaratController;
 
 
 
@@ -114,6 +115,12 @@ Route::middleware(['auth', 'adminJabatanOrSuperAdmin'])->prefix('pengurusan')->g
     Route::get('/', [PengurusanController::class, 'index'])->name('pengurusan.index');
     Route::get('/permohonan/{id}', [PengurusanController::class, 'show'])->name('pengurusan.show');
     Route::post('/permohonan/{id}/status', [PengurusanController::class, 'updateStatus'])->name('pengurusan.updateStatus');
+
+    Route::get('/mesyuarat', [MesyuaratController::class, 'index'])->name('mesyuarat.index');
+    Route::get('step1/{permohonan}', [MesyuaratController::class, 'showStep1Form'])->name('mesyuarat.step1');
+    Route::post('step1/{permohonan}', [MesyuaratController::class, 'submitStep1'])->name('mesyuarat.step1.submit');
+    Route::get('step2/{permohonan}', [MesyuaratController::class, 'showStep2Form'])->name('mesyuarat.step2');
+    Route::post('step2/{permohonan}', [MesyuaratController::class, 'submitStep2'])->name('mesyuarat.step2.submit');
 });
 
 

@@ -71,6 +71,12 @@
                             <a class="nav-link nav-link-johor" href="{{ route('pengurusan.index') }}">PENGURUSAN</a>
                         </li>
                     @endif
+                    @if (in_array(auth()->user()->type, [2, 3, 4]))
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-johor active"
+                                href="{{ route('mesyuarat.index') }}">MESYUARAT</a>
+                        </li>
+                    @endif
                 </ul>
             </div>
 
