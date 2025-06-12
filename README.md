@@ -1,7 +1,8 @@
 ```
 # Permohonan Projek JPICT 🖥️📄
 
-Sistem ini dibangunkan untuk memudahkan proses permohonan projek ICT melalui Jawatankuasa Projek ICT (JPICT). Ia direka khas untuk pengguna dalam sektor kerajaan bagi memohon, mengurus dan menyemak status projek ICT yang dicadangkan.
+Sistem ini dibangunkan untuk memudahkan proses permohonan projek ICT melalui Jawatankuasa Projek ICT (JPICT).
+Ia direka khas untuk pengguna dalam sektor kerajaan bagi memohon, mengurus dan menyemak status projek ICT yang dicadangkan.
 
 ---
 
@@ -11,7 +12,7 @@ Sistem ini dibangunkan untuk memudahkan proses permohonan projek ICT melalui Jaw
 - 🗂️ Pengurusan permohonan oleh admin & sekretariat
 - 📄 Penjanaan dokumen automatik (PDF)
 - 📊 Status permohonan: Dalam Proses, Disyorkan, Tidak Disyorkan
-- 🗓️ Modul mesyuarat JPICT (Mesyuarat 1 & 2)
+- 🗓️ Modul mesyuarat JPICT (Jabatan & Negeri)
 
 ---
 
@@ -73,6 +74,7 @@ php artisan serve
 | Admin Jabatan  | admin@jpict.my   | password     |
 | Pengguna Awam  | user@jpict.my    | password     |
 
+Issue -> Credentials
 ---
 
 ## 📸 Paparan Sistem (Screenshot)
