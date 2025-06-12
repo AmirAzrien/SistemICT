@@ -52,16 +52,13 @@ php artisan serve
 
 ## 🧪 Akaun Demo
 
+Issue -> Credentials
 | Jenis Pengguna | Emel            | Kata Laluan |
 |----------------|------------------|--------------|
 | Admin Jabatan  | admin@jpict.my   | password     |
 | Pengguna Awam  | user@jpict.my    | password     |
 
-Issue -> Credentials
 ---
 
 Projek ini dibangunkan untuk tujuan akademik/dalaman organisasi sahaja.
-
----
-
 - [@AmirAzrien](https://github.com/AmirAzrien) - Pembangun utama
