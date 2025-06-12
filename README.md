@@ -26,46 +26,30 @@ Ia direka khas untuk pengguna dalam sektor kerajaan bagi memohon, mengurus dan m
 
 ---
 
-## 🚀 Cara Pasang (Installation)
+## 🚀 Installation
 
 1. **Clone repo**
-```
-
 git clone [https://github.com/AmirAzrien/SistemICT.git](https://github.com/AmirAzrien/SistemICT.git)
 cd SistemICT
 
-```
 
 2. **Salin dan ubah suai `.env`**
-```
-
 cp .env.example .env
 
-```
 
 3. **Pasang dependensi**
-```
-
 composer install
 npm install && npm run dev
 
-```
 
 4. **Setup database**
-```
-
 php artisan migrate --seed
 
-```
 
 5. **Jalankan sistem**
-```
-
 php artisan serve
 
-```
 
----
 
 ## 🧪 Akaun Demo
 
@@ -77,23 +61,8 @@ php artisan serve
 Issue -> Credentials
 ---
 
-## 📸 Paparan Sistem (Screenshot)
-
-*Letakkan gambar jika ada, contohnya:*
-
-`public/images/screenshot.png`
-
-![Paparan Dashboard](public/images/screenshot.png)
-
----
-
-## 📚 Lesen
-
 Projek ini dibangunkan untuk tujuan akademik/dalaman organisasi sahaja.
 
 ---
 
-## 🤝 Penyumbang
-
 - [@AmirAzrien](https://github.com/AmirAzrien) - Pembangun utama
-```
