@@ -1,4 +1,3 @@
-```
 # Permohonan Projek JPICT 🖥️📄
 
 Sistem ini dibangunkan untuk memudahkan proses permohonan projek ICT melalui Jawatankuasa Projek ICT (JPICT).
