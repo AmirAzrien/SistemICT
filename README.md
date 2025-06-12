@@ -1,7 +1,3 @@
-Berikut ialah **README.md** versi penuh dalam **plain text**, tinggal copy & paste terus ke dalam fail `README.md` repo GitHub awak:
-
----
-
 ```
 # Permohonan Projek JPICT 🖥️📄
 
